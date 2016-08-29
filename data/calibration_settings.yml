@@ -1,0 +1,17 @@
+%YAML:1.0
+Settings:
+   BoardSize_Width: 9
+   BoardSize_Height: 6
+   Square_Size: 25.
+   Calibrate_Pattern: "CHESSBOARD"
+   Calibrate_NrOfFrameToUse: 20
+   Calibrate_FixAspectRatio: 1.
+   Calibrate_AssumeZeroTangentialDistortion: 1
+   Calibrate_FixPrincipalPointAtTheCenter: 1
+   Write_DetectedFeaturePoints: 0
+   Write_extrinsicParameters: 0
+   Write_outputFileName: "camera_params.yml"
+   Show_UndistortedImage: 1
+   Input_FlipAroundHorizontalAxis: 0
+   Input_Delay: 500
+   Input: "calibration_images_list.yml"
